@@ -1,8 +1,8 @@
 
 class BinaryTree {
-    value: number;
-    left: BinaryTree;
-    right: BinaryTree;
+    private value: number;
+    private left: BinaryTree;
+    private right: BinaryTree;
     constructor(value: number, left?, right?){
         this.value = value;
         this.left = (left === undefined ? null : left);
